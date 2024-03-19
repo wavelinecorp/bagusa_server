@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bag_general_members",
+  "info": {
+    "singularName": "bag-general-member",
+    "pluralName": "bag-general-members",
+    "displayName": "BAGGeneralMember",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

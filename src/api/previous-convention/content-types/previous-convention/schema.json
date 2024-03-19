@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "previous_conventions",
+  "info": {
+    "singularName": "previous-convention",
+    "pluralName": "previous-conventions",
+    "displayName": "PreviousConvention"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "join_us_sections",
+  "info": {
+    "singularName": "join-us-section",
+    "pluralName": "join-us-sections",
+    "displayName": "JoinUsSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

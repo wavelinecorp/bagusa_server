@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "standing_committees",
+  "info": {
+    "singularName": "standing-committee",
+    "pluralName": "standing-committees",
+    "displayName": "StandingCommittee"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "bag_histories",
+  "info": {
+    "singularName": "bag-history",
+    "pluralName": "bag-histories",
+    "displayName": "BAGHistory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

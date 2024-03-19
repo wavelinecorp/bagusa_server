@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "member_ship_benefits",
+  "info": {
+    "singularName": "member-ship-benefit",
+    "pluralName": "member-ship-benefits",
+    "displayName": "MemberShipBenefit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

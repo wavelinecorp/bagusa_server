@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "adminlinks",
+  "info": {
+    "singularName": "adminlink",
+    "pluralName": "adminlinks",
+    "displayName": "Adminlink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

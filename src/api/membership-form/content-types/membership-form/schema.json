@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "membership_forms",
+  "info": {
+    "singularName": "membership-form",
+    "pluralName": "membership-forms",
+    "displayName": "MembershipForm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "StreetAddress": {
+      "type": "string"
+    },
+    "StreetAddress2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "StateProvince": {
+      "type": "string"
+    },
+    "PostalZipCode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "LinkedIn": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "others_links",
+  "info": {
+    "singularName": "others-link",
+    "pluralName": "others-links",
+    "displayName": "othersLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "linkname": {
+      "type": "string"
+    }
+  }
+}

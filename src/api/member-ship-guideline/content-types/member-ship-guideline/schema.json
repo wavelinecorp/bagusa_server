@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "member_ship_guidelines",
+  "info": {
+    "singularName": "member-ship-guideline",
+    "pluralName": "member-ship-guidelines",
+    "displayName": "MemberShipGuideline"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

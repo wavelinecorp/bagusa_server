@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_bags",
+  "info": {
+    "singularName": "about-bag",
+    "pluralName": "about-bags",
+    "displayName": "AboutBAG"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

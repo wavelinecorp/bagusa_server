@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bag_awards",
+  "info": {
+    "singularName": "bag-award",
+    "pluralName": "bag-awards",
+    "displayName": "BAGAward"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "awardname": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
